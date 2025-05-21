@@ -32,4 +32,5 @@ export default defineConfig({
             ],
 		}),
 	],
+    site: 'https://whydev.me',
 });
