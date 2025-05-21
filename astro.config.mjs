@@ -1,6 +1,8 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import starlightLinksValidator from 'starlight-links-validator';
+import starlightSidebarTopics from 'starlight-sidebar-topics';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,19 +10,23 @@ export default defineConfig({
 		starlight({
 			title: 'whydev',
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/lvdat/whydev-docs' }],
-			sidebar: [
-				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
-				},
-				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
-				},
-			],
+            plugins: [
+                starlightLinksValidator(
+                    {
+                        errorOnInvalidHashes: false
+                    }
+                ),
+                starlightSidebarTopics([
+                    {
+                        label: 'Minevui Network',
+                        link: '/minevui-network/',
+                        icon: 'open-book',
+                        items: [
+                            { label: 'Introduction', link: '/minevui-network/start' },
+                        ],
+                    },
+                ]),
+            ],
 		}),
 	],
 });
