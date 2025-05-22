@@ -28,6 +28,22 @@ export default defineConfig({
                             { label: 'Introduction', link: '/minevui-network/start' },
                         ],
                     },
+                    {
+                        label: 'Minevui Modpack',
+                        link: '/minevui-modpack/',
+                        icon: 'pencil',
+                        items: [
+                            { label: 'Introduction', link: '/minevui-modpack/start' },
+                        ]
+                    },
+                    {
+                        label: 'Lam server Minecraft',
+                        link: '/lam-server-minecraft/',
+                        icon: 'open-book',
+                        items: [
+                            { label: 'Introduction', link: '/lam-server-minecraft/start' },
+                        ]
+                    }
                 ]),
             ],
 		}),
