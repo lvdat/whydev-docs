@@ -24,12 +24,12 @@ export default defineConfig({
       editLink: {
         baseUrl: 'https://github.com/lvdat/whydev-docs/edit/master'
       },
-        customCss: [
-        "@fontsource/roboto/vietnamese-400.css",
-        "@fontsource/jetbrains-mono/400.css",
-        "@fontsource/jetbrains-mono/600.css",
-        "./src/styles/main.css",
-        ],
+      customCss: [
+        '@fontsource/roboto/vietnamese-400.css',
+        '@fontsource/jetbrains-mono/400.css',
+        '@fontsource/jetbrains-mono/600.css',
+        './src/styles/main.css'
+      ],
       plugins: [
         starlightLinksValidator({
           errorOnInvalidHashes: false
