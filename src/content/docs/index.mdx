@@ -10,28 +10,22 @@ hero:
 
 import { Card, CardGrid } from "@astrojs/starlight/components";
 import LinkCard from "/src/components/LinkCard.astro";
+import { Icon } from "@astrojs/starlight/components";
 
 ## Bạn muốn xem gì?
 
 <CardGrid>
-  <LinkCard title="Minevui Network" href="/minevui-network/" icon="pencil">
-    :fire: Minevui Network mùa 8.
+  <LinkCard title="Minevui Network" href="/minevui-network/" icon="open-book">
+    <Icon name="fire" /> Minevui Network mùa 8.
   </LinkCard>
-  <LinkCard
-    title="Minevui Modpack"
-    href="/minevui-modpack/"
-    icon="add-document"
-  >
+  <LinkCard title="Minevui Modpack" href="/minevui-modpack/" icon="open-book">
     Modpack tối ưu Client cho máy chủ nhiều người chơi.
   </LinkCard>
   <LinkCard
     title="Series làm server Minecraft"
     href="/lam-server-minecraft/"
-    icon="setting"
+    icon="pen"
   >
     Tản mạn về làm server Minecraft.
   </LinkCard>
-  <Card title="Read the docs" icon="open-book">
-    Learn more in [the Starlight Docs](https://starlight.astro.build/).
-  </Card>
 </CardGrid>
