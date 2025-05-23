@@ -2,14 +2,17 @@
 title: Chào mừng đến với whydev
 description: Xem wiki của Minevui, hay đơn giản là cùng tôi tản mạn về lập trình.
 template: splash
+editUrl: false
+lastUpdated: false
 hero:
   tagline: Xem wiki của Minevui, hay đơn giản là cùng tôi tản mạn về lập trình.
   image:
     file: ../../assets/houston.webp
 ---
 
-import { Card, CardGrid } from "@astrojs/starlight/components";
+import { CardGrid } from "@astrojs/starlight/components";
 import LinkCard from "/src/components/LinkCard.astro";
+import { ContributorList } from "starlight-contributor-list";
 import { Icon } from "@astrojs/starlight/components";
 
 ## Bạn muốn xem gì?
@@ -29,3 +32,7 @@ import { Icon } from "@astrojs/starlight/components";
     Tản mạn về làm server Minecraft.
   </LinkCard>
 </CardGrid>
+
+## Contribute
+
+<ContributorList githubRepo="lvdat/whydev-docs" />
