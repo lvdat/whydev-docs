@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 600;
+  src:
+    url(@fontsource/source-sans-pro/files/source-sans-pro-vietnamese-600-normal.woff2) format("woff2"),
+    url(@fontsource/source-sans-pro/files/source-sans-pro-vietnamese-600-normal.woff) format("woff");
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+  --sl-font: "Source Sans Pro";
+  --sl-font-mono: "JetBrains Mono";
+}
+
+/* make images in markup wide and centered */
+.sl-markdown-content img {
+  margin: 0 auto;
+}
+.sl-markdown-content img:not([alt="Diagram"]) {
+  width: 100%;
+}
+.sl-markdown-content .img-inline img {
+  margin: 0;
+  width: auto;
+}
+.sl-markdown-content .img-inline-center img {
+  width: auto;
+}
+
+/* use custom font first instead of system */
+.sl-badge {
+  font-family: var(--__sl-font-mono);
+}
+
+/* Safari fixes for logo sizing */
+.hero-html > img {
+  object-fit: contain;
+  width: min(70%, 20rem);
+  height: auto;
+  margin-inline: auto;
+}
+
+/* make index page hero smaller vertically */
+@media (min-width: 50rem) {
+  .hero {
+    padding-block: clamp(2.5rem, calc(1rem + 2.5vmin), 10rem);
+  }
+}
+
+/* fix too large TOC on large screens */
+@media (min-width: 96rem) {
+  :root {
+    --sl-content-width: 64rem;
+  }
+}

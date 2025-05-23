@@ -11,6 +11,15 @@ importers:
       '@astrojs/starlight':
         specifier: ^0.34.3
         version: 0.34.3(astro@5.8.0(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.8.3))
+      '@fontsource/jetbrains-mono':
+        specifier: ^5.2.5
+        version: 5.2.5
+      '@fontsource/poppins':
+        specifier: ^5.2.6
+        version: 5.2.6
+      '@fontsource/source-sans-pro':
+        specifier: ^5.2.5
+        version: 5.2.5
       astro:
         specifier: ^5.8.0
         version: 5.8.0(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.8.3)
@@ -270,6 +279,15 @@ packages:
 
   '@expressive-code/plugin-text-markers@0.41.2':
     resolution: {integrity: sha512-JFWBz2qYxxJOJkkWf96LpeolbnOqJY95TvwYc0hXIHf9oSWV0h0SY268w/5N3EtQaD9KktzDE+VIVwb9jdb3nw==}
+
+  '@fontsource/jetbrains-mono@5.2.5':
+    resolution: {integrity: sha512-TPZ9b/uq38RMdrlZZkl0RwN8Ju9JxuqMETrw76pUQFbGtE1QbwQaNsLlnUrACNNBNbd0NZRXiJJSkC8ajPgbew==}
+
+  '@fontsource/poppins@5.2.6':
+    resolution: {integrity: sha512-NFr0121+vWCfzLDVvSZOzwAjRUaNj6QHA9gtUh/KHHoWf1Qn23EkwVFs63XZ6UtF5K1b3UNmCx77YEMGgV7BOQ==}
+
+  '@fontsource/source-sans-pro@5.2.5':
+    resolution: {integrity: sha512-ypendqc4pYUc+EgF7qqPY9iVYEz1t/Qr03VojKxG/2g3dnpHa1B6DOlDxWQjQXDj5QrG6inEqGT0g+edjALZyg==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -2336,6 +2354,12 @@ snapshots:
   '@expressive-code/plugin-text-markers@0.41.2':
     dependencies:
       '@expressive-code/core': 0.41.2
+
+  '@fontsource/jetbrains-mono@5.2.5': {}
+
+  '@fontsource/poppins@5.2.6': {}
+
+  '@fontsource/source-sans-pro@5.2.5': {}
 
   '@img/sharp-darwin-arm64@0.33.5':
     optionalDependencies:
