@@ -7,7 +7,9 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "format": "prettier --write .",
+    "format:check": "prettier . --check"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.34.3",
@@ -15,5 +17,12 @@
     "sharp": "^0.32.5",
     "starlight-links-validator": "^0.16.0",
     "starlight-sidebar-topics": "^0.6.0"
+  },
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "prettier-plugin-astro": "0.14.1"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }

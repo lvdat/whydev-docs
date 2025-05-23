@@ -12,9 +12,14 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'whydev',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/lvdat/whydev-docs' },
+			social: [
+                { icon: 'github', label: 'GitHub', href: 'https://github.com/lvdat/whydev-docs' },
                 { icon: 'discord', label: 'Discord', href: 'https://dsc.gg/minevui' },
             ],
+            lastUpdated: true,
+            editLink: {
+                baseUrl: 'https://github.com/lvdat/whydev-docs/edit/master'
+            },
             plugins: [
                 starlightLinksValidator(
                     {
