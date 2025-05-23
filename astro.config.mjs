@@ -28,7 +28,36 @@ export default defineConfig({
                         link: '/minevui-network/',
                         icon: 'open-book',
                         items: [
-                            { label: 'Giới thiệu', link: '/minevui-network/gioi-thieu' },
+                            {
+                                label: 'Thông tin chung',
+                                items: [
+                                    'minevui-network/thong-tin-chung',
+                                    'minevui-network/thong-tin-chung/donate',
+                                ]
+                            },
+                            {
+                                label: 'Wiki',
+                                items: [
+                                    'minevui-network/wiki',
+                                    'minevui-network/wiki/dang-ky-dang-nhap',
+                                    {
+                                        label: 'Chế độ sinh tồn',
+                                        items: [
+                                            {
+                                                label: 'Tổng quan',
+                                                link: '/minevui-network/wiki/sinh-ton/',
+                                            },
+                                            'minevui-network/wiki/sinh-ton/auction-house',
+                                            'minevui-network/wiki/sinh-ton/enchantments',
+                                            'minevui-network/wiki/sinh-ton/levelled-mobs',
+                                            'minevui-network/wiki/sinh-ton/rtp',
+                                            'minevui-network/wiki/sinh-ton/skills',
+                                            'minevui-network/wiki/sinh-ton/shop',
+                                            'minevui-network/wiki/sinh-ton/trade',
+                                        ]
+                                    }
+                                ]
+                            }
                         ],
                     },
                     {
