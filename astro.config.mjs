@@ -12,7 +12,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'whydev',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/lvdat/whydev-docs' }],
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/lvdat/whydev-docs' },
+                { icon: 'discord', label: 'Discord', href: 'https://dsc.gg/minevui' },
+            ],
             plugins: [
                 starlightLinksValidator(
                     {
@@ -21,19 +23,33 @@ export default defineConfig({
                 ),
                 starlightSidebarTopics([
                     {
+                        id: 'minevui-network',
                         label: 'Minevui Network',
                         link: '/minevui-network/',
                         icon: 'open-book',
                         items: [
-                            { label: 'Introduction', link: '/minevui-network/start' },
+                            { label: 'Giới thiệu', link: '/minevui-network/gioi-thieu' },
                         ],
                     },
                     {
+                        id: 'minevui-modpack',
                         label: 'Minevui Modpack',
                         link: '/minevui-modpack/',
                         icon: 'pencil',
                         items: [
-                            { label: 'Introduction', link: '/minevui-modpack/start' },
+                            {
+                                label: 'Giới thiệu', 
+                                link: '/minevui-modpack/gioi-thieu'
+                            },
+                            {
+                                label: 'Cài đặt',
+                                items: [
+                                    'minevui-modpack/cai-dat',
+                                    'minevui-modpack/cai-dat/modrinth',
+                                    'minevui-modpack/cai-dat/multimc',
+                                    'minevui-modpack/cai-dat/thu-cong'
+                                ]
+                            },
                         ]
                     },
                     {
