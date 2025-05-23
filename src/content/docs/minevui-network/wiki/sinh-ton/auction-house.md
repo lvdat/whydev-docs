@@ -29,7 +29,7 @@ Chợ đen hay cũng được gọi là **sàn đấu giá** là nơi người c
 
 ## Giới hạn chợ đen
 
-> Xem cách tăng cấp bậc ở [Ủng hộ máy chủ](../../../thong-tin-chung/donate)
+> Xem cách tăng cấp bậc ở [Ủng hộ máy chủ](/minevui-network/thong-tin-chung/donate)
 
 | Cấp bậc | Vật phẩm bán | Thời gian tối đa | Giá tối đa |
 | :-----: | :----------: | :--------------: | :--------: |
