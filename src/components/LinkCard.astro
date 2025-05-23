@@ -1,20 +1,20 @@
 ---
-import { Icon } from "@astrojs/starlight/components";
-import type { ComponentProps } from "astro/types";
+import { Icon } from '@astrojs/starlight/components'
+import type { ComponentProps } from 'astro/types'
 
 interface Props {
-  icon?: ComponentProps<typeof Icon>["name"];
-  title: string;
-  href: string;
-  destructive?: boolean;
+  icon?: ComponentProps<typeof Icon>['name']
+  title: string
+  href: string
+  destructive?: boolean
 }
 
-const { icon, title, href, destructive } = Astro.props;
+const { icon, title, href, destructive } = Astro.props
 ---
 
 <a
   href={href}
-  class:list={["not-content", "card", destructive && "card-destructive"]}
+  class:list={['not-content', 'card', destructive && 'card-destructive']}
 >
   <article class="sl-flex">
     <div class="title sl-flex">

@@ -1,54 +1,54 @@
 ---
-import { CardGrid, LinkCard } from "@astrojs/starlight/components";
-import { getCollection } from "astro:content";
-import { flattenEntries } from "../utils/sidebar";
+import { CardGrid, LinkCard } from '@astrojs/starlight/components'
+import { getCollection } from 'astro:content'
+import { flattenEntries } from '../utils/sidebar'
 
 interface Props {
-  path?: string;
+  path?: string
 }
 
-let { path } = Astro.props;
+let { path } = Astro.props
 
-path = path ?? Astro.locals.starlightRoute.entry.filePath;
-const parent = path.substring(0, path.lastIndexOf("/") + 1);
+path = path ?? Astro.locals.starlightRoute.entry.filePath
+const parent = path.substring(0, path.lastIndexOf('/') + 1)
 
 interface Page {
-  title: string;
-  description?: string;
-  href: string;
-  group: boolean;
+  title: string
+  description?: string
+  href: string
+  group: boolean
 }
 
-const entries = flattenEntries(Astro.locals.starlightRoute.sidebar);
+const entries = flattenEntries(Astro.locals.starlightRoute.sidebar)
 const pages: Page[] = (
   await getCollection(Astro.locals.starlightRoute.entry.collection)
 )
   .filter((p) => p.filePath!.startsWith(parent) && p.filePath !== path)
   .filter((p) => {
-    const rel = p.filePath!.substring(parent.length);
+    const rel = p.filePath!.substring(parent.length)
 
-    return !rel.includes("/") || rel.match(/^[A-z0-9-_]+\/index\.mdx?$/);
+    return !rel.includes('/') || rel.match(/^[A-z0-9-_]+\/index\.mdx?$/)
   })
   .map((p) => ({
     title: p.data.title,
     description: p.data.description,
     href: `/${p.id}`,
-    group: p.filePath!.includes("index"),
+    group: p.filePath!.includes('index')
   }))
   .sort(
     (a, b) =>
       entries.findIndex((e) => e.label === a.title) -
       entries.findIndex((e) => e.label === b.title)
-  );
+  )
 ---
 
 <CardGrid>
   {
     pages.map((p) => (
       <LinkCard
-        title={(p.group ? "🗃️ " : "") + p.title}
+        title={(p.group ? '🗃️ ' : '') + p.title}
         description={
-          p.description ?? (p.group ? "(documentation group)" : undefined)
+          p.description ?? (p.group ? '(documentation group)' : undefined)
         }
         href={p.href}
       />
