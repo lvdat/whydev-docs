@@ -25,10 +25,9 @@ export default defineConfig({
         baseUrl: 'https://github.com/lvdat/whydev-docs/edit/master'
       },
         customCss: [
-        "@fontsource/poppins/400.css",
+        "@fontsource/roboto/vietnamese-400.css",
         "@fontsource/jetbrains-mono/400.css",
         "@fontsource/jetbrains-mono/600.css",
-        "@fontsource/source-sans-pro/400.css",
         "./src/styles/main.css",
         ],
       plugins: [
