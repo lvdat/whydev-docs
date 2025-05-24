@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-display: swap;
   font-weight: 600;
@@ -15,7 +15,7 @@
 }
 
 :root {
-  --sl-font: 'Source Sans Pro';
+  --sl-font: 'Roboto';
   --sl-font-mono: 'JetBrains Mono';
 }
 
