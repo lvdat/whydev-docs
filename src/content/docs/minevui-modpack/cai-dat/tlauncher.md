@@ -29,7 +29,7 @@ Vì TLauncher khá ngu trong việc quản lý nhiều phiên bản tách biệt
 ![Screen Shot 2025-05-25 at 21 15 55](https://github.com/user-attachments/assets/5e371efa-f2f2-4a47-8621-106165061010)
 
 - Di chuyển đến đường dãn `versions\Minevui Optimized`
-- Tải xuống [file Modpack phiên bản mới nhất tại đây](https://github.com/whydev/whydev-modpack/releases/latest/download/minevui-optimized-bundled.zip)
+- Tải xuống [file Modpack phiên bản mới nhất tại đây](https://github.com/lvdat/minevui-optimized-modpack/releases/latest/download/minevui-optimized-bundled.zip)
 - Giải nén file zip vào thư mục modpack vừa mở:
 
 ![Screen Shot 2025-05-25 at 21 21 35](https://github.com/user-attachments/assets/dc35f357-de04-413d-9235-9da417acd4e6)
