@@ -89,6 +89,7 @@ export default defineConfig({
                   'minevui-modpack/cai-dat',
                   'minevui-modpack/cai-dat/modrinth',
                   'minevui-modpack/cai-dat/multimc',
+                  'minevui-modpack/cai-dat/tlauncher',
                   'minevui-modpack/cai-dat/thu-cong'
                 ]
               }
