@@ -32,12 +32,11 @@ Chợ đen hay cũng được gọi là **sàn đấu giá** là nơi người c
 > Xem cách tăng cấp bậc ở [Ủng hộ máy chủ](/minevui-network/thong-tin-chung/donate)
 
 | Cấp bậc | Vật phẩm bán | Thời gian tối đa | Giá tối đa |
-| :-----: | :----------: | :--------------: | :--------: |
-| default |      2       |        1d        |    100m    |
-|  SVIP   |      4       |      1d12h       |    100B    |
-|  SVIP+  |      5       |        2d        |    100B    |
-| SVIP++  |      5       |        2d        |    100B    |
-|  SSVIP  |      7       |        3d        |    100B    |
-| SSVIP+  |      10      |        4d        |    100B    |
-| SSVIP++ |      15      |        5d        |    100B    |
-| SSSVIP  |      20      |       10d        |    100B    |
+| :--------: | :----------: | :--------------: | :--------: |
+|   Member   |      3       |        1d        |    100m    |
+|   Knight   |      4       |        2d        |    100B    |
+|    Lord    |      5       |        3d        |    100B    |
+|   Cleric   |      6       |        4d        |    100B    |
+|  Guardian  |      7       |        5d        |    100B    |
+|  Ancient   |      9       |        7d        |    100B    |
+
