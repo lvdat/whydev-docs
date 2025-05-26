@@ -30,6 +30,9 @@ export default defineConfig({
         '@fontsource/jetbrains-mono/600.css',
         './src/styles/main.css'
       ],
+      components: {
+        Footer: "./src/components/overrides/Footer.astro"
+      },
       plugins: [
         starlightLinksValidator({
           errorOnInvalidHashes: false
