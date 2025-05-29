@@ -1,9 +1,9 @@
 ---
 title: Cửa hàng
 ---
-#Cách Mở shop: `/shop`
+# Cách Mở shop: `/shop`
 
-##Các loại shop hiện hành:
+## Các loại shop hiện hành:
 
   -shop gỗ
 
