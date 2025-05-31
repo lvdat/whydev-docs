@@ -1,16 +1,14 @@
 ---
 title: Levelled Mobs
 ---
-## Level của quái vật trong server khi càng xa toạ độ x = 0, z = 0 thì sẽ càng lớn
 
+### Level của quái trong server
+Trong một map thế giới (cả ba dạng `overworld`, `nether`, `the_end`), cấp của quái được tính:
+- Theo chiều ngang, cấp của quái sẽ càng cao khi càng xa điểm spawn của thế giới
+- Theo chiều cao (cả khi Y âm), cấp của quái sẽ càng thấp khi xa điểm spawn thế giới 
+- Cấp độ tối đa của quái (trong mọi loại map) là `150`
 
-## Level của quái vật trong server khi tung độ càng cao càng thấp tính từ y = 0
-
-
-## Quái trong server có thể lên đến tối đa 150 level
-
-
-## Các chỉ số của quái được tính theo công thức sau:
+### Các chỉ số của quái được tính theo công thức sau:
 
         max-health: '(%level-ratio% * %max-health% * 7)'
 
