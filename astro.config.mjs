@@ -18,7 +18,7 @@ export default defineConfig({
           label: 'GitHub',
           href: 'https://github.com/lvdat/whydev-docs'
         },
-        { icon: 'discord', label: 'Discord', href: 'https://dsc.gg/minevui' }
+        { icon: 'discord', label: 'Discord', href: 'https://discord.gg/minevui' }
       ],
       lastUpdated: true,
       editLink: {
