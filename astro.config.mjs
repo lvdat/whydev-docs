@@ -69,7 +69,11 @@ export default defineConfig({
                       'minevui-network/wiki/sinh-ton/rtp',
                       'minevui-network/wiki/sinh-ton/skills',
                       'minevui-network/wiki/sinh-ton/shop',
-                      'minevui-network/wiki/sinh-ton/trade'
+                      'minevui-network/wiki/sinh-ton/trade',
+                      'minevui-network/wiki/sinh-ton/home',
+                      'minevui-network/wiki/sinh-ton/team',
+                      'minevui-network/wiki/sinh-ton/kit'
+                      
                     ]
                   }
                 ]
