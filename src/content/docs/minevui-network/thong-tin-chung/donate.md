@@ -43,27 +43,29 @@ Khi các bạn donate thì sẽ nhận role **Donator** trong Discord và **Rank
 ## Lời cảm ơn
 
 Dưới đây là danh sách các **Donator** đã ủng hộ cho MineVui! Xin chân thành cảm ơn các bạn đã góp phần duy trì máy chủ!
-> :warning: Danh sách cập nhật ngày 26/05/2025
+> :warning: Danh sách cập nhật ngày 10/06/2025
 
 ```
 #1 - @arumakaiyo (650k)
-#2 - @huytbb (530k)
+#2 - @huytbb (592k)
 #3 - @naterds (305k)
-#4 - @_ovtked.yukagi (220k)
-#5 - @totallynotkhang (150k)
-#5 - @nguyenquan09209 (150k)
-#5 - @whovictim (150k)
+#4 - @whovictim (300k)
+#5 - @_ovtked.yukagi (220k)
+#6 - @totallynotkhang (150k)
+#6 - @nguyenquan09209 (150k)
 #8 - @cheems2807 (100k )
 #9 - @byuni28 (75k)
 #10 - @szyyy___ (70k)
 #11 - @lh_jannnnnne  (50k)
 #11 - @lomoho149 (50k)
 #11 - @pawwaoshisui (50k)
-#14 - @dark_traan (44k)
-#15 - @kkuhaku001 (20k)
-#15 - @hieuhoangtrung (20k)
-#15 - @kudozu_suru (20k)
-#15 - @bach.hac (20k)
-#15 - @hinambebee  (20k)
+#11 - @catty1609 (50k)
+#15 - @dark_traan (44k)
+#16 - @kkuhaku001 (20k)
+#16 - @hieuhoangtrung (20k)
+#16 - @bach.hac (20k)
+#16 - @hinambebee  (20k)
 #20 - @sonhoangtuech (10k)
+#20 - @.dragon404 (10k)
+#20 - @hbachdangcap009 (10k)
 ```
