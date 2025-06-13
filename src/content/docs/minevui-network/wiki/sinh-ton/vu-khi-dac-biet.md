@@ -17,6 +17,8 @@ Lưu ý rằng các vũ khí đặc biệt chỉ ra mắt trong một khoảng t
 
 > Chú ý ngọc đã khảm vào không thể gỡ khỏi vũ khí
 
+- Các vũ khí đặc biệt đều có thể sử dụng **tất cả loại enchant** phù hợp với vũ khí đó
+
 ## Các chỉ số mới
 Các vũ khí đặc biệt sẽ mang thêm các chỉ số mới ngoài Vanilla nên việc mạnh hơn các vũ khí mặc định là điều tất nhiên. Các chỉ số ngoài vanilla sẽ bao gồm:
 - **Crit Rate** - Tỉ lệ chí mạng: tỉ lệ đòn đánh là đòn chí mạng. Đòn chí mạng là đòn gây sát thương nhiều hơn đáng kể so với sát thương cơ bản của vũ khí
