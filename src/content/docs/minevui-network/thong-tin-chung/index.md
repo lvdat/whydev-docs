@@ -10,7 +10,7 @@ Minevui Network là server Minecraft với chế độ chính là sinh tồn cù
 ## Tham gia Minevui mùa 8
 
 - IP: `minevui.io.vn`
-- Phiên bản hỗ trợ: `Java Edition 1.21.1 - 1.21.5`
+- Phiên bản hỗ trợ: `Java Edition 1.21.4/5`
 
 ## Danh sách chế độ chơi hiện tại
 
