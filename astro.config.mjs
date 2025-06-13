@@ -76,6 +76,7 @@ export default defineConfig({
                       'minevui-network/wiki/sinh-ton/shop',
                       'minevui-network/wiki/sinh-ton/death-chest',
                       'minevui-network/wiki/sinh-ton/quest',
+                      'minevui-network/wiki/sinh-ton/core-trao-doi',
                       'minevui-network/wiki/sinh-ton/trade',
                       'minevui-network/wiki/sinh-ton/home',
                       'minevui-network/wiki/sinh-ton/team',
