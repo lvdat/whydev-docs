@@ -1,18 +1,20 @@
 ---
-import Default from "@astrojs/starlight/components/Footer.astro";
-import { Icon } from "@astrojs/starlight/components";
+import Default from '@astrojs/starlight/components/Footer.astro'
+import { Icon } from '@astrojs/starlight/components'
 ---
 
 <Default><slot /></Default>
 <div>
   <p class="footer-item">
-    Copyright © {new Date().getFullYear()} whydev, Minevui Network and contributors. Built with <Icon name="starlight" class="icon" />
+    Copyright © {new Date().getFullYear()} whydev, Minevui Network and contributors.
+    Built with <Icon name="starlight" class="icon" />
     <a href="https://starlight.astro.build/" target="_blank">Starlight</a>.
   </p>
   <p class="footer-item muted">
-    This website is not an official Minecraft website and is not associated with Mojang Studios or Microsoft. All
-    product and company names are trademarks or registered trademarks of their respective holders. Use of these names
-    does not imply any affiliation or endorsement by them.
+    This website is not an official Minecraft website and is not associated with
+    Mojang Studios or Microsoft. All product and company names are trademarks or
+    registered trademarks of their respective holders. Use of these names does
+    not imply any affiliation or endorsement by them.
   </p>
 </div>
 

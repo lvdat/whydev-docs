@@ -1,6 +1,6 @@
 ---
 title: Giới thiệu
-description: A guide in my new Starlight docs site.
+description: Chào mừng đến Minevui!
 ---
 
 # Giới thiệu

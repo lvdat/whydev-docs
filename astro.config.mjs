@@ -18,7 +18,11 @@ export default defineConfig({
           label: 'GitHub',
           href: 'https://github.com/lvdat/whydev-docs'
         },
-        { icon: 'discord', label: 'Discord', href: 'https://discord.gg/minevui' }
+        {
+          icon: 'discord',
+          label: 'Discord',
+          href: 'https://discord.gg/minevui'
+        }
       ],
       lastUpdated: true,
       editLink: {
@@ -31,7 +35,7 @@ export default defineConfig({
         './src/styles/main.css'
       ],
       components: {
-        Footer: "./src/components/overrides/Footer.astro"
+        Footer: './src/components/overrides/Footer.astro'
       },
       plugins: [
         starlightLinksValidator({
@@ -71,6 +75,7 @@ export default defineConfig({
                       'minevui-network/wiki/sinh-ton/skills',
                       'minevui-network/wiki/sinh-ton/shop',
                       'minevui-network/wiki/sinh-ton/death-chest',
+                      'minevui-network/wiki/sinh-ton/quest',
                       'minevui-network/wiki/sinh-ton/trade',
                       'minevui-network/wiki/sinh-ton/home',
                       'minevui-network/wiki/sinh-ton/team',
@@ -78,7 +83,6 @@ export default defineConfig({
                       'minevui-network/wiki/sinh-ton/claim',
                       'minevui-network/wiki/sinh-ton/casino',
                       'minevui-network/wiki/sinh-ton/misc'
-                      
                     ]
                   }
                 ]
