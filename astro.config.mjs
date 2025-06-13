@@ -63,6 +63,7 @@ export default defineConfig({
                         label: 'Tổng quan',
                         link: '/minevui-network/wiki/sinh-ton/'
                       },
+                      'minevui-network/wiki/sinh-ton/vu-khi-dac-biet',
                       'minevui-network/wiki/sinh-ton/auction-house',
                       'minevui-network/wiki/sinh-ton/enchantments',
                       'minevui-network/wiki/sinh-ton/levelled-mobs',
