@@ -10,6 +10,10 @@ Lưu ý rằng các vũ khí đặc biệt chỉ ra mắt trong một khoảng t
 - Vũ khí đặc biệt sẽ có trong rương Gacha vũ khí ở `/warp gacha` trong khoảng thời gian nó ra mắt với tỉ lệ tối đa là `1%` trong bể vũ khí gacha và chắc chắn sẽ nhận được ở mốc **50 lần quay**
 - Người chơi có thể đổi vũ khí đặc biệt tại khu vực trade ở `/warp trade` bằng vật phẩm **Arena Core**
 
+## Chỉ số đặc biệt
+- Tất cả loại vũ khí đều sẽ **không thể bị phá huỷ** (không bị giảm độ bền khi sử dụng)
+- Mỗi vũ khí sẽ có ít nhất một chỉ số đặc biệt đi kèm
+
 ## Cường hoá vũ khí
 - Ngoài các kỹ năng cực kỳ mạnh mẽ của từng loại vũ khí, người chơi cần xem các chỉ số kèm theo và chọn các loại **Gem** (hay ngọc khảm) cho phù hợp! Tính đặc thù của vũ khí chính là dòng **chỉ số chính duy nhất** của vũ khí đó.
 
