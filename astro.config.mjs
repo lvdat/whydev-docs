@@ -61,6 +61,15 @@ export default defineConfig({
                   'minevui-network/wiki',
                   'minevui-network/wiki/dang-ky-dang-nhap',
                   {
+                    label: 'Minevui Mùa 9',
+                    items: [
+                      {
+                        label: 'Tổng quan',
+                        link: '/minevui-network/wiki/mua-9/'
+                      }
+                    ]
+                  },
+                  {
                     label: 'Chế độ sinh tồn',
                     items: [
                       {
