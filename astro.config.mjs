@@ -67,7 +67,8 @@ export default defineConfig({
                         label: 'Tổng quan',
                         link: '/minevui-network/wiki/mua-9/'
                       },
-                      'minevui-network/wiki/mua-9/towny'
+                      'minevui-network/wiki/mua-9/towny',
+                      'minevui-network/wiki/mua-9/economy'
                     ]
                   },
                   {
