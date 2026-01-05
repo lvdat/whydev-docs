@@ -11,39 +11,39 @@ MineVui Network không có chức năng nạp thẻ và sẽ luôn **nói không
 
 Các bạn có thể chuyển khoản cho mình qua các ngân hàng sau:
 
-| **Ngân hàng** | **Số tài khoản** |
-|---------------|------------------|
-| Sacombank     | 070119694599     |
+| **Ngân hàng**  | **Số tài khoản** |
+|----------------|------------------|
+| Sacombank      | `070119694599`   |
+| CAKE by VPBank | `0967305284`     |
 
 Hoặc qua các ví điện tử
 
 | **Ví điện tử** | **Số điện thoại** |
 |----------------|-------------------|
-| Momo           | 0911474065        |
+| Momo           | `0911474065`      |
 
-> :warning: Tất cả địa chỉ trên đều có tên chủ tài khoản là **LE VAN DAT**. Khi donate các bạn hãy ghi lời nhắn là username Discord hoặc nhắn tin trực tiếp cho mình qua Discord để giúp bạn hưởng đặc quyền nhé!
+> Tất cả địa chỉ trên đều có tên chủ tài khoản là **LE VAN DAT**. Khi donate các bạn hãy ghi lời nhắn là username Discord hoặc nhắn tin trực tiếp cho mình qua Discord để giúp bạn hưởng đặc quyền nhé!
 
 ### Donate khi không có tài khoản ngân hàng
 
 Một số bạn chưa có tài khoản ngân hàng có thể gửi **thẻ nạp điện thoại** trực tiếp cho mình qua Discord.
-> :warning: Không khuyến khích!
 
 ## Quyền lợi của Donator
 ### Role VIP
 
 Khi các bạn donate thì sẽ nhận role **Donator** trong Discord và **Rank trong máy chủ game** tương ứng với mức đã ủng hộ. Cụ thể trong bảng dưới đây:
 
-> :warning: Chú ý quyền lợi chỉ áp dụng với cụm máy chủ sinh tồn được làm bởi mình (**why**), các cụm chế độ khác sẽ tuỳ thuộc vào tình hình điều kiện mà có đặc quyền riêng!
+> Chú ý quyền lợi chỉ áp dụng với cụm máy chủ sinh tồn được làm bởi mình (**why**), các cụm chế độ khác sẽ tuỳ thuộc vào tình hình điều kiện mà có đặc quyền riêng!
 
 ![IMG_20250524_235423](https://github.com/user-attachments/assets/d9379530-9955-4810-9eec-813eaf274e54)
 
 
-> :warning: Các quyền lợi đang được tính toán và sẽ cập nhật liên tục! Các đặc quyền không mang tính tác động đến cân bằng trò chơi, không ảnh hưởng người khác.
+> Các quyền lợi đang được tính toán và sẽ cập nhật liên tục! Các đặc quyền không mang tính tác động đến cân bằng trò chơi, không ảnh hưởng người khác.
 
 ## Lời cảm ơn
 
 Dưới đây là danh sách các **Donator** đã ủng hộ cho MineVui! Xin chân thành cảm ơn các bạn đã góp phần duy trì máy chủ!
-> :warning: Danh sách cập nhật ngày 02/07/2025
+> *Danh sách cập nhật ngày 02/07/2025*
 
 ```
 #1 - @arumakaiyo (650k)
