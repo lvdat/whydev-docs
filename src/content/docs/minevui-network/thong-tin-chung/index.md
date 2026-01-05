@@ -5,18 +5,12 @@ description: Chào mừng đến Minevui!
 
 # Giới thiệu
 
-Minevui Network là server Minecraft với chế độ chính là sinh tồn cùng các chế độ chơi giải trí khác.
+Minevui Network là server Minecraft với chế độ chính là sinh tồn cùng các chế độ chơi giải trí khác. Máy chủ hướng đến cày cuốc khám phá và nói không với p2w.
 
-## Tham gia Minevui mùa 8
+## Tham gia Minevui mùa 10
 
-- IP: `minevui.io.vn`
-- Phiên bản hỗ trợ: `Java Edition 1.21.4/5`
-
-## Danh sách chế độ chơi hiện tại
-
-- :white_check_mark: Sinh tồn (chế độ chơi chính)
-
-> :warning: Danh sách chế độ sẽ thay đổi tuỳ thuộc vào điều kiện trong khoảng thời gian nhất định.
+- IP: `coming soon`
+- Phiên bản hỗ trợ: `Java Edition 1.21.8/10`
 
 ## Hỗ trợ
 
